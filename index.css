@@ -3,6 +3,7 @@
   padding: 0;
 }
 .navbar {
+  overflow: hidden;
   background-color: red;
   display: flex;
   justify-content: space-around;
@@ -14,12 +15,39 @@
   justify-content: space-between;
   width: 200px;
 }
+.link1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.link1 a:hover {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease;
+}
 .head {
   height: 700px;
   background-color: royalblue;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.head .left {
+  width: 40%;
+}
+.head h1 {
+  font-size: 4rem;
+}
+.head p {
+  font-size: 2rem;
+}
+.head a {
+  font-size: 2rem;
+  border: 2px solid;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 9px;
+  text-decoration: none;
 }
 .holder {
   width: 100%;
@@ -60,6 +88,7 @@
   color: white;
   display: flex;
   align-items: center;
+  padding: 20px;
   justify-content: center;
 }
 .text {
@@ -105,7 +134,7 @@
   text-decoration: none;
   border: 2px solid white;
   border-radius: 6px;
-  padding: 8px;
+  padding: 9px;
 }
 .footer {
   background-color: darkgrey;
