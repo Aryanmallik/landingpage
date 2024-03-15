@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@31,18.8&family=Nabla&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +10,7 @@
   background-color: red;
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 6rem;
   align-items: center;
 }
 .link {
@@ -26,7 +29,8 @@
   transition: 0.5s ease;
 }
 .head {
-  height: 700px;
+  width: 100%;
+  height: 40rem;
   background-color: royalblue;
   display: flex;
   justify-content: center;
@@ -37,6 +41,11 @@
 }
 .head h1 {
   font-size: 4rem;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
 }
 .head p {
   font-size: 2rem;
@@ -55,7 +64,7 @@
   justify-content: space-around;
 }
 .random {
-  height: 400px;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,15 +84,18 @@
   /* justify-content:center; */
   text-align: center;
 }
+.picitem p {
+  font-size: 2rem;
+}
 .pic {
-  margin: 40px;
+  margin: 2vw;
   border: 4px solid blue;
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
   border-radius: 9px;
 }
 .quote {
-  height: 20vw;
+  height: 30rem;
   background-color: black;
   color: white;
   display: flex;
@@ -97,7 +109,7 @@
 .itallic i {
   color: #454c56;
   font-family: "Roboto", sans-serif;
-  font-size: 3vw;
+  font-size: 3rem;
   font-weight: light;
 }
 .bold {
@@ -106,10 +118,10 @@
 }
 .bold b {
   margin-top: 50px;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 .sign {
-  height: 400px;
+  height: 30rem;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -118,7 +130,7 @@
 .blue {
   background-color: blue;
   width: 70%;
-  height: 200px;
+  height: 10rem;
   border-radius: 9px;
   display: flex;
   justify-content: space-around;
@@ -126,7 +138,7 @@
   color: white;
 }
 .lefty {
-  font-size: 30px;
+  font-size: 2rem;
 }
 .blue .signup {
   color: white;
